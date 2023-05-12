@@ -8,6 +8,10 @@
 
 2.
 ![](readme/20230512160554.png)
+
+正常运行界面截图
+
+![](readme/20230512184642.png)
 # html部分代码解释
 ```
 <tr><td align="center">Resolution</td><td align="center" colspan="2"><input type="range" id="framesize" min="0" max="6" value="5" onchange="try{fetch(document.location.origin+'/control?var=framesize&val='+this.value);}catch(e){}"></td></tr> 
