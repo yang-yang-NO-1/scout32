@@ -12,7 +12,7 @@ int neutral = 4915; // Servo Neutral Point
 #include "esp_camera.h"
 #include "img_converters.h"
 #include "Arduino.h"
-#include "dl_lib.h"
+#include "..\include\dl_lib.h"
 
 // Stream Encoding
 typedef struct {
