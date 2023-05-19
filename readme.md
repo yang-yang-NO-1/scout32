@@ -1,6 +1,6 @@
 # pio使用对应于arduino框架的v1.0.2版本（pio中为v1.8.0），故修改为使用v1.0.6（pio版本为3.2.0），报错缺少dl_lib.h（arduino版本v1.0.2版本后取消该文件），从别处下载相关库放在include文件夹中
 
-# 该项目在scout32的基础上添加ws2812
+# 该项目在scout32的基础上添加ws2812，使用bliner库实现scout32在此（https://github.com/yang-yang-NO-1/blinker_esp32cam.git）
 ![](readme/20230512145133.png)
 # 网页图片base64对应，（按照app_server.cpp中出现顺序）
 1.
